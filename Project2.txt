@@ -1,0 +1,35 @@
+Voici comment utiliser la synchronisation des alertes sûreté avec Firebase Firestore (100% gratuit, sans hébergement ni service payant) :
+
+1. Dépendances
+Ajoutez dans votre build.gradle (Module: app) :
+
+gradle
+implementation platform('com.google.firebase:firebase-bom:32.7.0')
+implementation 'com.google.firebase:firebase-firestore-ktx:24.10.3'
+implementation 'com.google.firebase:firebase-auth-ktx:22.3.0'
+(Voir fichier 
+_DEPENDENCIES_FIREBASE.txt
+ généré)
+
+2. Code de synchronisation
+Le fichier 
+FirestoreAlerteRepository.kt
+ gère l’envoi et la récupération des alertes via Firestore.
+Quand un agent envoie une alerte, elle est enregistrée dans la base partagée.
+Tous les agents sûreté peuvent voir l’historique à jour en temps réel.
+3. Configuration Firebase
+Créez un projet sur console.firebase.google.com (1 min, gratuit).
+Téléchargez le fichier 
+google-services.json
+ et placez-le dans app/.
+Activez Firestore Database dans la console.
+Définissez des règles de sécurité pour limiter l’accès aux agents sûreté (je peux vous fournir un exemple).
+4. Intégration dans l’app
+Remplacez les appels à l’ancien repository local par 
+FirestoreAlerteRepository
+.
+Toutes les alertes sont synchronisées entre tous les téléphones, même hors réseau (Firestore gère le cache offline).
+5. Avantages
+Gratuit, sécurisé, sans serveur à maintenir
+Prêt pour Android Studio, aucune configuration complexe
+Synchronisation instantanée pour les 6 agents sûreté

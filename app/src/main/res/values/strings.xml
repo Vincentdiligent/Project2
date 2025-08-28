@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sûreté CHU Pellegrin</string>
+    <string name="login_title">Connexion</string>
+    <string name="immatriculation">Immatriculation</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="alerte">Alerte</string>
+    <string name="envoyer_alerte">Envoyer une alerte</string>
+    <string name="commentaire">Commentaire</string>
+    <string name="service_associe">Service associé</string>
+    <string name="type_alerte">Type d'alerte</string>
+    <string name="vol">Vol</string>
+    <string name="agression">Agression</string>
+    <string name="disparition">Disparition</string>
+    <string name="autre">Autre</string>
+    <string name="historique">Historique</string>
+    <string name="retour">Retour</string>
+    <string name="notifications">Notifications</string>
+    <string name="carte">Carte interactive</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="erreur_connexion">Erreur de connexion</string>
+    <string name="profil_surete">Profil Sûreté</string>
+    <string name="profil_employe">Profil Employé</string>
+    <string name="theme_clair">Thème clair</string>
+    <string name="theme_sombre">Thème sombre</string>
+</resources>

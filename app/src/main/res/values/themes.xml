@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SureteCHUPellegrin" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/chu_bleu</item>
+        <item name="colorPrimaryVariant">@color/chu_bleu_fonce</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/chu_vert</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">@color/chu_bleu_fonce</item>
+        <item name="android:navigationBarColor">@color/chu_bleu</item>
+    </style>
+</resources>

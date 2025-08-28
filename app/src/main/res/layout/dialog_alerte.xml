@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Spinner
+        android:id="@+id/spinnerTypeAlerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/type_alerte" />
+
+    <EditText
+        android:id="@+id/editTextCommentaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/commentaire"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:maxLines="5"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/editTextServiceAssocie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/service_associe"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/buttonEnvoyerAlerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envoyer_alerte"
+        android:layout_marginTop="18dp"
+        style="@style/Widget.Material3.Button.Filled" />
+
+</LinearLayout>
